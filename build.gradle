@@ -33,6 +33,9 @@ configurations {
 }
 
 dependencies {
+
+    runtime "org.postgresql:postgresql:9.4.1208.jre7"
+
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     compile "org.springframework.boot:spring-boot-starter-logging"
     compile "org.springframework.boot:spring-boot-autoconfigure"
