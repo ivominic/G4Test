@@ -71,6 +71,10 @@ dependencies {
     testCompile "org.seleniumhq.selenium:selenium-support:3.14.0"
     testRuntime "org.seleniumhq.selenium:selenium-chrome-driver:3.14.0"
     testRuntime "org.seleniumhq.selenium:selenium-firefox-driver:3.14.0"
+
+    //compile files('src/main/libs/tess4j-3.4.8.jar')
+    //runtime files('src/main/libs/tess4j-3.4.8.jar')
+    compile group: 'net.sourceforge.tess4j', name: 'tess4j', version: '4.0.2'
 }
 
 bootRun {
