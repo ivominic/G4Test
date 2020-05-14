@@ -21,7 +21,7 @@ class TestKlasaController {
         try {
 
             tesseract.setDatapath("C:/dms/")
-            //tesseract.setLanguage("srp_latin")
+            tesseract.setLanguage("srp_latn_new")
 
             println tesseract.getProperties()
 
