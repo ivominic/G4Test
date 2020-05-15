@@ -9,7 +9,7 @@ class UrlMappings {
             }
         }
 
-        "/"(view:"/index")
+        "/"(controller: "testKlasa", action: "ocrforma")
         "500"(view:'/error')
         "404"(view:'/notFound')
     }

@@ -61,8 +61,8 @@ class TestKlasaController {
 
             println tesseract.getProperties()
             //String text = tesseract.doOCR(new File("C:/dms/cirilica.png"))
-            fajl.transferTo(new File("C:/dms/test/" + fajl.originalFilename))
-            String text = tesseract.doOCR(new File("C:/dms/test/" + fajl.originalFilename))
+            fajl.transferTo(new File("C:/dms//files/" + fajl.originalFilename))
+            String text = tesseract.doOCR(new File("C:/dms//files/" + fajl.originalFilename))
 
             // path of your image file
             render ([success: true, message: "Uspjeh", text: text] as JSON)
